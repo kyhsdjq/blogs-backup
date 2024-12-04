@@ -5,8 +5,9 @@ categories: [Note, Formal Language & Automation, Turing Machine]
 tags: [computer science]     # TAG names should always be lowercase
 author: kyhsdjq
 description: Turing machine's definition and basic properties.
+media_subpath: /imgs/note
 math: true
-mermaid: true
+# mermaid: true
 ---
 
 ## 前言
@@ -27,6 +28,8 @@ mermaid: true
 
 在每个瞬间，图灵机都是一条无限长的纸带，上面扣着一个读写头。
 
+![turing machine](turing-machine-raw.svg){: w="700" }
+
 于是图灵机可以通过三个部分来描述：
 - 读写头状态
 - 读写头在纸带上的位置
@@ -36,6 +39,8 @@ mermaid: true
 - $$\alpha$$：纸带中在读写头左侧的符号（不包括读写头下的）
 - $$q$$：读写头状态
 - $$\beta$$：纸带在读写头右侧的符号（包括读写头下的）
+
+![turing machine ID](turing-machine-ID.svg){: w="700" }
 
 ### 状态转移
 
