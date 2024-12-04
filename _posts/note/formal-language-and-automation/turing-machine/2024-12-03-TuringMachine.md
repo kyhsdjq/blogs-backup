@@ -1,7 +1,7 @@
 ---
 title: "Turing Machine #0"
 date: 2024-12-03 20:20:00 +0800
-categories: [Note, Formal Languange & Automation, Turing Machine]
+categories: [Note, Formal Language & Automation, Turing Machine]
 tags: [computer science]     # TAG names should always be lowercase
 author: kyhsdjq
 description: Turing machine's definition and basic properties.
